@@ -859,7 +859,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="UART" library="Seeed-Connector -2016" deviceset="GROVE-CONNECTOR-DIP(4P-2.0)" device="" value="4P-2.0"/>
 <part name="JP1" library="microbuilder" deviceset="HEADER-1X12" device=""/>
 <part name="JP2" library="microbuilder" deviceset="HEADER-1X16" device="ROUND"/>
-<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
@@ -877,7 +877,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="UART" gate="G$1" x="190.5" y="88.9"/>
 <instance part="JP1" gate="G$1" x="96.52" y="109.22" rot="R180"/>
 <instance part="JP2" gate="A" x="60.96" y="111.76" rot="R180"/>
-<instance part="GND3" gate="1" x="180.34" y="129.54"/>
+<instance part="GND" gate="1" x="180.34" y="129.54"/>
 <instance part="GND4" gate="1" x="180.34" y="106.68"/>
 <instance part="GND5" gate="1" x="180.34" y="81.28"/>
 </instances>
@@ -958,7 +958,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="185.42" y1="109.22" x2="186.69" y2="110.49" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND3" gate="1" pin="GND"/>
+<pinref part="GND" gate="1" pin="GND"/>
 <pinref part="I2C" gate="G$1" pin="4"/>
 <wire x1="180.34" y1="132.08" x2="185.42" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="132.08" x2="186.69" y2="133.35" width="0.1524" layer="91"/>
